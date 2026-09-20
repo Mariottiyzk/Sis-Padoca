@@ -9,13 +9,19 @@ namespace SisPadoca
 
         private void sairDoSistemaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime Local = DateTime.Now;
             TssDataHora.Text = Local.ToString();
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmClientes CadClientes = new FrmClientes();
+            CadClientes.ShowDialog();
         }
     }
 }
