@@ -27,7 +27,7 @@ namespace SisPadoca
                 if (ctrl is TextBox or ComboBox
                     or DateTimePicker or MaskedTextBox)
                 {
-                    ctrl.Enabled = false;
+                    ctrl.Enabled = false; // Todos os textbox, combobox, datetimer e maskedtext vai ser inabilitado
                 }
             }
             BtnEditar.Enabled = false;
