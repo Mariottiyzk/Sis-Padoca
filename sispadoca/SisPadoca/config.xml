@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<add name="MySql" connectionString="Server=localhost;Port=3306;Database=sispadoca;Uid=root;Charset=utf8mb4;"/>
+	</connectionStrings>
+</configuration>
